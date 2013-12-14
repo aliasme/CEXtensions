@@ -1,0 +1,172 @@
+/* Power-user sort of UI. Intended for 1080+ resolutions.
+   Works great with Stylish! Last updated 12/13/13. */
+
+div,
+tr { font-size: 110% }
+a,
+th,
+td,
+label,
+div > div { font-size: 94% }
+.active-orders th,
+.active-orders td { font-size: 80% }
+br:last-child { display: none }
+.navbar-inner { min-height: 24px }
+.navbar .divider-vertical { height: 35px }
+.navbar .nav > li > a {
+    font-size: 100%;
+    position: relative;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    z-index: 1560;
+    }
+.navbar-avatar > .dropdown > .dropdown-toggle {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    }
+.navbar-avatar .thumb-small { width: 22px }
+.home > .container:nth-child(2) {
+    position: fixed;
+    min-width: 500px;
+    width: 500px;
+    max-width: 500px;
+    top: -89px;
+    left: 995px;
+    z-index: 1555;
+    }
+.page-header > div { display: none }
+.cex-logo,
+.slogan { display: none !important }
+.balance { margin-top: 0 }
+.balance b { font-size: 120% }
+.balance li { width: 160px }
+.nav { margin-bottom: 0 }
+.nav-a { padding-left: 0 }
+.btn-fund {
+    margin: 0;
+    width: 120px;
+    height: 0px;
+    padding: 0 0 26px 5px;
+    font-size: 12px;
+    position: fixed;
+    top: 4px;
+    right: 6px;
+    z-index: 1200;
+    }
+.container {
+    min-width: 85%;
+    max-width: 100%;
+    margin-left: 0;
+    }
+#inner .home { padding-bottom: 0 }
+#content {
+    width: 100%;
+    padding: 35px 5px 15px 5px;
+    }
+#content > .row-fluid > div > * { clear: both }
+#pairs {
+    height: 70px;
+    margin-bottom: 0;
+    }
+.graph-tab { padding: 8px }
+.graph-tab.active { border-radius: 8px 8px 0 0 }
+#google_candelistic_chart { height: 255px }
+#google_control { top: 25px !important; }
+.span12 > .chart {
+    display: inline-block;
+    margin-top: -3px;
+    width: 52%;
+    float: left;
+    clear: left !important;
+    }
+.span12 > .market {
+    display: inline-block;
+    margin-top: 0;
+    padding: 0;
+    width: 45%;
+    float: right;
+    clear: right !important;
+    }
+.market-data {
+    margin-bottom: 0;
+    padding: 10px 0 10px 10px;
+    border-radius: 10px 10px 0 0;
+    }
+.market-data .title { font-size: 24px }
+.market-data .pair-name { width: 12.5% }
+.market-data .span10 { margin-left: 0 }
+.market-data .day-range { width: 29% }
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+.title { font-size: 16px !important }
+.buy-sell {
+    padding: 10px 10px 0 10px;
+    margin-bottom: 0;
+    }
+.buy-sell > h3,
+.buy-sell > .row-fluid > .span6 > br { display: none }
+#trade,
+#instant { display: inline-block !important }
+#trade {
+    float: right;
+    width: 49.5%;
+    }
+#instant {
+    float: left;
+    width: 50%;
+    }
+#instant .total { display: none }
+.block { margin-bottom: 0 }
+.btn-small {
+    padding: 3px;
+    font-size: 10.5px;
+    }
+#order-buy-error,
+#order-buy-success,
+#order-buy-cancel {
+    width: 300px;
+    height: 16px;
+    position: absolute;
+    bottom: 10px;
+    }
+.alert .close {
+    width: 30px;
+    height: 27px;
+    }
+
+form,
+.control-group { margin-bottom: 0; }
+.row-fluid > .span6 > .panel { border-radius: 15px 0 0 15px; }
+.row-fluid > .span6 + .span6 > .panel { border-radius: 0 15px 15px 0; }
+.panel,
+.panel-heading { width: 94% !important }
+.buy-sell-orders,
+.active-orders {
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+.buy-sell-orders {
+    padding-right: 0;
+    width: 55%;
+    float: left;
+    }
+.buy-sell-orders > .row-fluid > .span6 > div { width: 100% !important }
+.buy-sell-orders > .row-fluid > .span6 > div > div { height: 590px !important }
+.active-orders {
+    width: 42%;
+    float: right;
+    }
+.active-orders > .row-fluid > div:last-of-type { height: 190px !important }
+.active-orders + .active-orders > .row-fluid > div:last-of-type { height: 360px !important }
+.table th,
+.table td { padding: 5px }
+#contract { display: none !important }
+.buy-sell > a { display: none !important }
+.input-append { zoom: 0.8 }
+.footer div { font-size: 100% }
+.footer > .container-fluid { display: none }
+.modal-backdrop.fade.in { opacity: 0.15 }
+div.jGrowl.top-right { top: 34px; }
+#msgWindow { zoom: 85% !important }
