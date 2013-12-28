@@ -3,10 +3,11 @@ CEXtensions
 
 User-created tweaks, scripts, and tools for CEX.io
 
-Index
------
+What's Here?
+------------
 
-* '''powerCEX''' : Complementary stylesheet offering a fullscreen-optimized trading experience
+* **powerCEX** : Complementary stylesheet offering a fullscreen-optimized trading experience
+* **Language mods** : Simple userscripts to override text you don't like
 
 Issues
 ------
