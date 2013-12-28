@@ -1,5 +1,5 @@
 /* Power-user sort of UI. Intended for 1080+ resolutions.
-   Works great with Stylish! Last updated 12/13/13. */
+   Works great with Stylish! Last updated 12/28/13. */
 
 div,
 tr { font-size: 110% }
@@ -27,11 +27,11 @@ br:last-child { display: none }
 .navbar-avatar .thumb-small { width: 22px }
 .home > .container:nth-child(2) {
     position: fixed;
-    min-width: 500px;
-    width: 500px;
-    max-width: 500px;
+    min-width: 650px;
+    width: 650px;
+    max-width: 650px;
     top: -89px;
-    left: 995px;
+    left: 830px;
     z-index: 1555;
     }
 .page-header > div { display: none }
@@ -125,7 +125,8 @@ h3 {
     }
 #order-buy-error,
 #order-buy-success,
-#order-buy-cancel {
+#order-error,
+#order-success{
     width: 300px;
     height: 16px;
     position: absolute;
@@ -149,13 +150,13 @@ form,
     }
 .buy-sell-orders {
     padding-right: 0;
-    width: 55%;
+    width: 51%;
     float: left;
     }
 .buy-sell-orders > .row-fluid > .span6 > div { width: 100% !important }
 .buy-sell-orders > .row-fluid > .span6 > div > div { height: 590px !important }
 .active-orders {
-    width: 42%;
+    width: 46%;
     float: right;
     }
 .active-orders > .row-fluid > div:last-of-type { height: 190px !important }
