@@ -1,0 +1,307 @@
+/**
+   __       _             __ _       _     _       ___   ____  __
+  / /  __ _| |_ ___    /\ \ (_) __ _| |__ | |_    / __\ /__\ \/ /
+ / /  / _` | __/ _ \  /  \/ / |/ _` | '_ \| __|  / /   /_\  \  / 
+/ /__| (_| | ||  __/ / /\  /| | (_| | | | | |_  / /___//__  /  \ 
+\____/\__,_|\__\___| \_\ \/ |_|\__, |_| |_|\__| \____/\__/ /_/\_\
+                               |___/  better than porno
+ 
+v1.1a
+ 
+By Serial77
+ 
+If you like this code feel free to tip some BTC: 1DyRW2oLRecj8YA1D1Htbk6iiepuhLfJns
+ 
+**/
+ 
+/** HOW TO USE:
+ 
+Use it with the Stylish! Extension for much awesomeness when visiting Cex.io
+ 
+For Chrome: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en
+For Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/
+ 
+Make sure to apply this style only to the domain: cex.io (See Stylish help for your browser)
+ 
+**/
+
+#content {
+  background: none !important
+  }
+
+.graph-tab.active {
+  background: rgba(0, 0, 0, 0.60) !important;
+  border: 1px solid #000 !important;
+  }
+
+#google_candelistic_chart {
+  background: rgba(2, 1, 1, 0.34) !important;
+  box-shadow: inset 0 100px 160px -100px rgba(0, 174, 207, 0.26) !important;
+  }
+
+#google_control {
+  background: rgba(0, 0, 0, 0.60) !important;
+  box-shadow: none !important;
+  }
+
+.span12 > .chart {
+  border-radius: 0 0 0 0 !important
+  }
+
+.span12 > .market {
+  border: 1px solid #000000 !important;
+  border-radius: 0 0 0 0 !important;
+  }
+
+.market-data {
+  background: none !important;
+  box-shadow: none !important;
+  color: #436fa3 !important;
+  }
+
+.market-data .title {
+  color: #436fa3 !important
+  }
+
+#market-depth-google > div > div > svg > g > g > g > rect {
+  background: none !important;
+  fill: rgba(0, 0, 0, 0.99) !important;
+  }
+
+.market {
+  background: rgba(0, 0, 0, 0.60) !important;
+  height: 418px !important;
+  }
+
+.value {
+  color: rgb(136, 203, 209)!important;
+  font-weight: 400 !important;
+  }
+
+#content > div > div > div:nth-child(2) {
+  background: rgba(0, 0, 0, 0.60) !important;
+  border: 1px solid #000 !important;
+  }
+
+#google_candelistic_chart > div > div > svg > g > g > g:first-child > rect {
+  fill: #000e11 !important
+  }
+
+#google_candelistic_chart svg > g > g > g > rect {
+  fill: #040b0d !important
+  }
+
+#google_control svg > g > g > g > rect {
+  fill: #005b80 !important
+  }
+
+#market-bars-google > div > div > svg > g > g > g:first-child >rect {
+  fill: black !important
+  }
+
+#google_control div:last-child svg rect:nth-child(3) {
+  box-shadow: none !important;
+  fill: black !important;
+  }
+
+#google_control text {
+  fill: #005b80 !important
+  }
+
+#google_candelistic_chart text {
+  fill: #153137 !important
+  }
+
+#google_candelistic_chart > div > div > svg > g > g > g > g > rect:first-child {
+  fill: #2b2b2b !important
+  }
+
+.google_charts_zoom li.active {
+  background: rgb(0, 50, 70) !important;
+  color: #00DBDB !important;
+  }
+
+.google_charts_zoom li {
+  background-color: #00202C !important;
+  color: #395B61 !important;
+  cursor: pointer !important;
+  float: left !important;
+  margin: 5px !important;
+  padding: 0 10px !important;
+  }
+
+#google_control > div > div > svg > g > g > path {
+  fill: #677a8f !important
+  }
+
+#ohlcv-close {
+  color: #00ff96 !important;
+  font-weight: bold !important;
+  }
+
+.highlight-red {
+  background: rgba(255, 0, 0, 0.3) !important;
+  color: red !important;
+  }
+
+.buy-sell .fee {
+  position: absolute !important;
+  font-size: 9px !important;
+  margin-top: 3px !important;
+  }
+
+.highlight-green {
+  background: rgba(0, 255, 150, 0.3) !important;
+  color: rgba(0, 255, 150, 1) !important;
+  }
+
+.buy-sell-orders tr.active {
+  background: rgba(0, 198, 255, 0.3) !important;
+  color: rgba(0, 198, 255, 1) !important;
+  }
+
+.buy-sell-orders tr {
+  transition: all 0.25s ease-in-out !important;
+  -webkit-transition: all 0.25s ease-in-out !important;
+  -moz-transition: all 0.25s ease-in-out !important;
+  }
+
+.home {
+  background: linear-gradient(to bottom, #121a1e 0%, #000000 100%) !important;
+  filter: progid !important;
+  }
+
+.balanceraw-GHS {
+  color: #00EBFF !important
+  }
+
+.balanceraw-BTC {
+  color: #a58dff !important
+  }
+
+.notification {
+  background: none !important;
+  border: none !important;
+  }
+
+.navbar,
+.navbar-inner {
+  background: linear-gradient(to bottom, #273238 0%, #151616 50%, #0a0e0a 51%, #0a0809 100%) !important;
+  filter: progid !important;
+  }
+
+.btn-white {
+  -khtml-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  -moz-box-shadow: inset 0 1px 0 0 white !important;
+  -ms-border-radius: 3px !important;
+  -o-border-radius: 3px !important;
+  -o-box-shadow: inset 0 1px 0 0 white !important;
+  -webkit-border-radius: 3px !important;
+  -webkit-box-shadow: inset 0 1px 0 0 white !important;
+  background: linear-gradient(to bottom, #121a1e 0%, #000000 100%) !important;
+  filter: progid !important;
+  border: 1px solid #000 !important;
+  border-radius: 3px !important;
+  box-shadow: inset 0 1px 0 0 #333333 !important;
+  color: #555555 !important;
+  position: relative !important;
+  text-shadow: 0 1px 0 black !important;
+  transition: all 0.5s ease-in-out !important;
+  -webkit-transition: all 0.5s ease-in-out !important;
+  -moz-transition: all 0.5s ease-in-out !important;
+  }
+
+.btn-white:hover {
+  background: linear-gradient(to bottom, #273238 0%, #151616 50%, #0a0e0a 51%, #0a0809 100%) !important;
+  filter: progid !important;
+  border: 1px solid #258cda !important;
+  -moz-border-radius: 3px !important;
+  -webkit-border-radius: 3px !important;
+  -o-border-radius: 3px !important;
+  -ms-border-radius: 3px !important;
+  -khtml-border-radius: 3px !important;
+  border-radius: 3px !important;
+  box-shadow: 0 0 5px rgba(0, 245, 255, 1) !important;
+  -webkit-box-shadow: 0 0 5px rgba(0, 112, 255, 1) !important;
+  -moz-box-shadow: 0 0 5px rgba(0, 245, 255, 1) !important;
+  color: #2984AF !important;
+  text-shadow: 0 1px 0 #032A49 !important;
+  }
+
+.btn-blue {
+  -khtml-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  -moz-box-shadow: inset 0 1px 0 0 white !important;
+  -ms-border-radius: 3px !important;
+  -o-border-radius: 3px !important;
+  -o-box-shadow: inset 0 1px 0 0 white !important;
+  -webkit-border-radius: 3px !important;
+  -webkit-box-shadow: inset 0 1px 0 0 white !important;
+  background: linear-gradient(to bottom, #121a1e 0%, #000000 100%) !important;
+  filter: progid !important;
+  border: 1px solid #000 !important;
+  border-radius: 3px !important;
+  box-shadow: inset 0 1px 0 0 #333333 !important;
+  color: #555555 !important;
+  text-shadow: 0 1px 0 black !important;
+  transition: all 0.25s ease-in-out !important;
+  -webkit-transition: all 0.25s ease-in-out !important;
+  -moz-transition: all 0.25s ease-in-out !important;
+  }
+
+.btn-blue:hover {
+  background: linear-gradient(to bottom, #273238 0%, #151616 50%, #0a0e0a 51%, #0a0809 100%) !important;
+  filter: progid !important;
+  border: 1px solid #258cda !important;
+  -moz-border-radius: 3px !important;
+  -webkit-border-radius: 3px !important;
+  -o-border-radius: 3px !important;
+  -ms-border-radius: 3px !important;
+  -khtml-border-radius: 3px !important;
+  border-radius: 3px !important;
+  box-shadow: 0 0 5px rgba(0, 245, 255, 1) !important;
+  -webkit-box-shadow: 0 0 5px rgba(0, 112, 255, 1) !important;
+  -moz-box-shadow: 0 0 5px rgba(0, 245, 255, 1) !important;
+  color: #2984AF !important;
+  text-shadow: 0 1px 0 #032A49 !important;
+  }
+
+.btn-white span.btn_caption {
+  color: #5A91AF !important;
+  text-shadow: 0 1px 0 black !important;
+  }
+
+br:last-child,
+.page-header > div,
+.buy-sell > h3,
+.buy-sell > .row-fluid > .span6 > br,
+#instant .total,
+.footer > .container-fluid {
+  display: none !important
+  }
+
+.cex-logo,
+.slogan,
+#contract,
+.buy-sell > a {
+  display: none !important
+  }
+
+.nav,
+.block,
+form,
+.control-group {
+  margin-bottom: 0 !important
+  }
+
+.row-fluid > .span6 > .panel,
+.row-fluid > .span6 + .span6 > .panel {
+  border-radius: 0 0 0 0 !important
+  }
+
+#market-depth-google > div > div > svg > rect,
+#market-bars-google > div > div > svg > rect {
+  background: none !important;
+  fill: none !important;
+  }
