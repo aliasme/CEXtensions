@@ -18,7 +18,7 @@ If you like this code feel free to tip some BTC: 1DyRW2oLRecj8YA1D1Htbk6iiepuhLf
  
 Use it with the Stylish! Extension for much awesomeness when visiting Cex.io
  
-For Chrome: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en
+For Chrome:  https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en
 For Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/
  
 Make sure to apply this style only to the domain: cex.io (See Stylish help for your browser)
@@ -26,7 +26,7 @@ Make sure to apply this style only to the domain: cex.io (See Stylish help for y
 **/
 
 #content {
-  background: none !important
+  background: none !important;
   }
 
 .graph-tab.active {
@@ -45,12 +45,13 @@ Make sure to apply this style only to the domain: cex.io (See Stylish help for y
   }
 
 .span12 > .chart {
-  border-radius: 0 0 0 0 !important
+  border-radius: 0 0 0 0 !important;
   }
 
 .span12 > .market {
   border: 1px solid #000000 !important;
   border-radius: 0 0 0 0 !important;
+  background: rgba(0, 0, 0, 0.60) !important;
   }
 
 .market-data {
@@ -60,7 +61,7 @@ Make sure to apply this style only to the domain: cex.io (See Stylish help for y
   }
 
 .market-data .title {
-  color: #436fa3 !important
+  color: #436fa3 !important;
   }
 
 #market-depth-google > div > div > svg > g > g > g > rect {
@@ -70,11 +71,10 @@ Make sure to apply this style only to the domain: cex.io (See Stylish help for y
 
 .market {
   background: rgba(0, 0, 0, 0.60) !important;
-  height: 418px !important;
   }
 
 .value {
-  color: rgb(136, 203, 209)!important;
+  color: rgb(136, 203, 209) !important;
   font-weight: 400 !important;
   }
 
@@ -84,19 +84,19 @@ Make sure to apply this style only to the domain: cex.io (See Stylish help for y
   }
 
 #google_candelistic_chart > div > div > svg > g > g > g:first-child > rect {
-  fill: #000e11 !important
+  fill: #000e11 !important;
   }
 
 #google_candelistic_chart svg > g > g > g > rect {
-  fill: #040b0d !important
+  fill: #040b0d !important;
   }
 
 #google_control svg > g > g > g > rect {
-  fill: #005b80 !important
+  fill: #005b80 !important;
   }
 
 #market-bars-google > div > div > svg > g > g > g:first-child >rect {
-  fill: black !important
+  fill: black !important;
   }
 
 #google_control div:last-child svg rect:nth-child(3) {
@@ -105,15 +105,15 @@ Make sure to apply this style only to the domain: cex.io (See Stylish help for y
   }
 
 #google_control text {
-  fill: #005b80 !important
+  fill: #005b80 !important;
   }
 
 #google_candelistic_chart text {
-  fill: #153137 !important
+  fill: #153137 !important;
   }
 
 #google_candelistic_chart > div > div > svg > g > g > g > g > rect:first-child {
-  fill: #2b2b2b !important
+  fill: #2b2b2b !important;
   }
 
 .google_charts_zoom li.active {
@@ -124,14 +124,10 @@ Make sure to apply this style only to the domain: cex.io (See Stylish help for y
 .google_charts_zoom li {
   background-color: #00202C !important;
   color: #395B61 !important;
-  cursor: pointer !important;
-  float: left !important;
-  margin: 5px !important;
-  padding: 0 10px !important;
   }
 
 #google_control > div > div > svg > g > g > path {
-  fill: #677a8f !important
+  fill: #677a8f !important;
   }
 
 #ohlcv-close {
@@ -144,12 +140,6 @@ Make sure to apply this style only to the domain: cex.io (See Stylish help for y
   color: red !important;
   }
 
-.buy-sell .fee {
-  position: absolute !important;
-  font-size: 9px !important;
-  margin-top: 3px !important;
-  }
-
 .highlight-green {
   background: rgba(0, 255, 150, 0.3) !important;
   color: rgba(0, 255, 150, 1) !important;
@@ -160,23 +150,23 @@ Make sure to apply this style only to the domain: cex.io (See Stylish help for y
   color: rgba(0, 198, 255, 1) !important;
   }
 
-.buy-sell-orders tr {
-  transition: all 0.25s ease-in-out !important;
-  -webkit-transition: all 0.25s ease-in-out !important;
-  -moz-transition: all 0.25s ease-in-out !important;
-  }
-
 .home {
-  background: linear-gradient(to bottom, #121a1e 0%, #000000 100%) !important;
-  filter: progid !important;
+  background: #121a1e !important; /* Old browsers */
+  background: -moz-linear-gradient(top,  #121a1e 0%, #000000 100%) !important; /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#121a1e), color-stop(100%,#000000)) !important; /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #121a1e 0%,#000000 100%) !important; /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #121a1e 0%,#000000 100%) !important; /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #121a1e 0%,#000000 100%) !important; /* IE10+ */
+  background: linear-gradient(to bottom,  #121a1e 0%,#000000 100%) !important; /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121a1e', endColorstr='#000000',GradientType=0 ) !important; /* IE6-9 */
   }
 
 .balanceraw-GHS {
-  color: #00EBFF !important
+  color: #00EBFF !important;
   }
 
 .balanceraw-BTC {
-  color: #a58dff !important
+  color: #a58dff !important;
   }
 
 .notification {
@@ -186,8 +176,13 @@ Make sure to apply this style only to the domain: cex.io (See Stylish help for y
 
 .navbar,
 .navbar-inner {
-  background: linear-gradient(to bottom, #273238 0%, #151616 50%, #0a0e0a 51%, #0a0809 100%) !important;
-  filter: progid !important;
+  background: -moz-linear-gradient(top,  #273238 0%, #151616 50%, #0a0e0a 51%, #0a0809 100%) !important; /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#273238), color-stop(50%,#151616), color-stop(51%,#0a0e0a), color-stop(100%,#0a0809)) !important; /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #273238 0%,#151616 50%,#0a0e0a 51%,#0a0809 100%) !important; /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #273238 0%,#151616 50%,#0a0e0a 51%,#0a0809 100%) !important; /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #273238 0%,#151616 50%,#0a0e0a 51%,#0a0809 100%) !important; /* IE10+ */
+  background: linear-gradient(to bottom,  #273238 0%,#151616 50%,#0a0e0a 51%,#0a0809 100%) !important; /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#273238', endColorstr='#0a0809',GradientType=0 ) !important; /* IE6-9 */
   }
 
 .btn-white {
@@ -199,7 +194,14 @@ Make sure to apply this style only to the domain: cex.io (See Stylish help for y
   -o-box-shadow: inset 0 1px 0 0 white !important;
   -webkit-border-radius: 3px !important;
   -webkit-box-shadow: inset 0 1px 0 0 white !important;
-  background: linear-gradient(to bottom, #121a1e 0%, #000000 100%) !important;
+  background: #121a1e !important;
+  background: -moz-linear-gradient(top, #121a1e 0%, #000000 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#121a1e), color-stop(100%,#000000)) !important;
+  background: -webkit-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+  background: -o-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+  background: -ms-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+  background: linear-gradient(to bottom, #121a1e 0%,#000000 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121a1e', endColorstr='#000000',GradientType=0 ) !important;
   filter: progid !important;
   border: 1px solid #000 !important;
   border-radius: 3px !important;
@@ -213,8 +215,13 @@ Make sure to apply this style only to the domain: cex.io (See Stylish help for y
   }
 
 .btn-white:hover {
-  background: linear-gradient(to bottom, #273238 0%, #151616 50%, #0a0e0a 51%, #0a0809 100%) !important;
-  filter: progid !important;
+  background: -moz-linear-gradient(top,  #273238 0%, #151616 50%, #0a0e0a 51%, #0a0809 100%) !important; /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#273238), color-stop(50%,#151616), color-stop(51%,#0a0e0a), color-stop(100%,#0a0809)) !important; /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #273238 0%,#151616 50%,#0a0e0a 51%,#0a0809 100%) !important; /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #273238 0%,#151616 50%,#0a0e0a 51%,#0a0809 100%) !important; /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #273238 0%,#151616 50%,#0a0e0a 51%,#0a0809 100%) !important; /* IE10+ */
+  background: linear-gradient(to bottom,  #273238 0%,#151616 50%,#0a0e0a 51%,#0a0809 100%) !important; /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#273238', endColorstr='#0a0809',GradientType=0 ) !important; /* IE6-9 */
   border: 1px solid #258cda !important;
   -moz-border-radius: 3px !important;
   -webkit-border-radius: 3px !important;
@@ -238,8 +245,14 @@ Make sure to apply this style only to the domain: cex.io (See Stylish help for y
   -o-box-shadow: inset 0 1px 0 0 white !important;
   -webkit-border-radius: 3px !important;
   -webkit-box-shadow: inset 0 1px 0 0 white !important;
-  background: linear-gradient(to bottom, #121a1e 0%, #000000 100%) !important;
-  filter: progid !important;
+  background: #121a1e !important;
+  background: -moz-linear-gradient(top, #121a1e 0%, #000000 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#121a1e), color-stop(100%,#000000)) !important;
+  background: -webkit-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+  background: -o-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+  background: -ms-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+  background: linear-gradient(to bottom, #121a1e 0%,#000000 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121a1e', endColorstr='#000000',GradientType=0 ) !important;
   border: 1px solid #000 !important;
   border-radius: 3px !important;
   box-shadow: inset 0 1px 0 0 #333333 !important;
@@ -251,8 +264,13 @@ Make sure to apply this style only to the domain: cex.io (See Stylish help for y
   }
 
 .btn-blue:hover {
-  background: linear-gradient(to bottom, #273238 0%, #151616 50%, #0a0e0a 51%, #0a0809 100%) !important;
-  filter: progid !important;
+  background: -moz-linear-gradient(top,  #273238 0%, #151616 50%, #0a0e0a 51%, #0a0809 100%) !important; /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#273238), color-stop(50%,#151616), color-stop(51%,#0a0e0a), color-stop(100%,#0a0809)) !important; /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #273238 0%,#151616 50%,#0a0e0a 51%,#0a0809 100%) !important; /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #273238 0%,#151616 50%,#0a0e0a 51%,#0a0809 100%) !important; /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #273238 0%,#151616 50%,#0a0e0a 51%,#0a0809 100%) !important; /* IE10+ */
+  background: linear-gradient(to bottom,  #273238 0%,#151616 50%,#0a0e0a 51%,#0a0809 100%) !important; /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#273238', endColorstr='#0a0809',GradientType=0 ) !important; /* IE6-9 */
   border: 1px solid #258cda !important;
   -moz-border-radius: 3px !important;
   -webkit-border-radius: 3px !important;
@@ -272,32 +290,9 @@ Make sure to apply this style only to the domain: cex.io (See Stylish help for y
   text-shadow: 0 1px 0 black !important;
   }
 
-br:last-child,
-.page-header > div,
-.buy-sell > h3,
-.buy-sell > .row-fluid > .span6 > br,
-#instant .total,
-.footer > .container-fluid {
-  display: none !important
-  }
-
-.cex-logo,
-.slogan,
-#contract,
-.buy-sell > a {
-  display: none !important
-  }
-
-.nav,
-.block,
-form,
-.control-group {
-  margin-bottom: 0 !important
-  }
-
 .row-fluid > .span6 > .panel,
 .row-fluid > .span6 + .span6 > .panel {
-  border-radius: 0 0 0 0 !important
+  border-radius: 0 0 0 0 !important;
   }
 
 #market-depth-google > div > div > svg > rect,
@@ -305,3 +300,367 @@ form,
   background: none !important;
   fill: none !important;
   }
+
+.row-fluid > .span6 > .panel,.row-fluid > .span6 + .span6 > .panel {
+	border-radius:0 0 0 0 !important;
+	}
+
+#market-depth-google > div > div > svg > rect,
+#market-bars-google > div > div > svg > rect {
+	background:none !important;
+	fill:none !important;
+	}
+
+.btn-white span.btn_caption {
+	color: #5A91AF !important;
+	text-shadow: 0 1px 0 black !important;
+	decoration: none !important;
+	}
+
+.navbar .divider-vertical {
+	margin: 0 !important;
+	border-right: 1px solid #313131 !important;
+	}
+
+.navbar .nav>li>a {
+	float: none !important;
+	color: #38697C !important;
+	}
+
+.buy-sell {
+	border: none !important;
+	margin: 15px 0 !important;
+	margin-bottom: 0 !important;
+	padding: 10px 5px 0 !important;
+	-moz-border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	-khtml-border-radius: 0px !important;
+	border-radius: 0px !important;
+	background: rgba(0, 0, 0, 0) !important;
+	position: relative !important;
+	min-height: 160px !important;
+	margin-left: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 5px !important;
+	margin-right: 5px !important;
+	}
+
+.panel {
+	padding: 15px !important;
+	margin-bottom: 10px !important;
+	margin-right: -10px !important;
+	background: none !important;
+	border-radius: 0px !important;
+	min-height: 115px !important;
+	background: #121a1e !important;
+	background: -moz-linear-gradient(top, #121a1e 0%, #000000 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#121a1e), color-stop(100%,#000000)) !important;
+	background: -webkit-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+	background: -o-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+	background: -ms-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+	background: linear-gradient(to bottom, #121a1e 0%,#000000 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121a1e', endColorstr='#000000',GradientType=0 ) !important; 
+	border: 1px dotted #222222 !important;
+  transition: all 0.25s ease-in-out !important;
+  -webkit-transition: all 0.25s ease-in-out !important;
+  -moz-transition: all 0.25s ease-in-out !important;  
+	}
+
+#instant > div > div > div:last-child > section:hover,#trade > div > div > div:last-child > section:hover {
+	border-bottom: 1px solid rgba(255,0,0,1) !important;
+	-webkit-box-shadow: 0px 6px 6px -3px rgba(97,2,2,1) !important;
+	-moz-box-shadow: 0px 6px 6px -3px rgba(97,2,2,1) !important;
+	box-shadow: 0px 6px 6px -3px rgba(97,2,2,1) !important;  
+	}
+
+#instant > div > div > div:first-child > section:hover,#trade > div > div > div:first-child > section:hover {
+	border-bottom: 1px solid rgba(0, 255, 126, 0.28) !important;
+	-webkit-box-shadow: 0px 6px 6px -3px rgba(0, 116, 65, 0.31) !important;
+	-moz-box-shadow: 0px 6px 6px -3px rgba(0, 116, 65, 0.31) !important;
+	box-shadow: 0px 6px 6px -3px rgba(0, 116, 65, 0.31) !important;
+	}
+
+.bg-white {
+	background: none !important;
+	}
+
+.panel-heading {
+	padding: 10px 26px !important;
+	margin: -15px -15px 15px !important;
+	font-size: 17.5px !important;
+	font-weight: 500 !important;
+	border-bottom: 2px groove #1E272B !important;
+	border-top-right-radius: 15px !important;
+	border-top-left-radius: 15px !important;
+	}
+
+.buy-sell .panel-heading .title {
+	background:none !important;
+	}
+
+#instant > div > div > div > section > header > span {
+	color:rgb(66, 206, 139) !important;
+	}
+
+.table-bordered {
+	border: none !important;
+	border-collapse: separate !important;
+	border-left: 0 !important;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+	}
+
+.table-bordered thead:first-child tr:first-child>th:first-child,
+.table-bordered tbody:first-child tr:first-child>td:first-child,
+.table-bordered tbody:first-child tr:first-child>th:first-child {
+	-webkit-border-top-left-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	-moz-border-radius-topleft: 0px !important;
+	border-radius: 0px !important;
+	}
+
+.table-bordered thead:first-child tr:first-child>th:last-child,
+.table-bordered tbody:first-child tr:first-child>td:last-child,
+.table-bordered tbody:first-child tr:first-child>th:last-child {
+	-webkit-border-top-right-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	-moz-border-radius-topright: 0px !important;
+	}
+
+.table th {
+	font-weight: bold !important;
+	background: #121a1e !important;
+	background: -moz-linear-gradient(top, #121a1e 0%, #000000 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#121a1e), color-stop(100%,#000000)) !important;
+	background: -webkit-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+	background: -o-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+	background: -ms-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+	background: linear-gradient(to bottom, #121a1e 0%,#000000 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121a1e', endColorstr='#000000',GradientType=0 ) !important; 
+	}
+
+table {
+	border: 1px dotted #555555 !important;
+	}
+
+.table-bordered th,
+.table-bordered td {
+	border-left: 1px dotted #555555 !important;
+	}
+
+.table th, .table td {
+	border-top: 1px dotted #555555 !important;
+	}
+
+.active-orders > .row-fluid > div:last-of-type {
+	height: 190px !important;
+	background: #121a1e !important;
+	background: -moz-linear-gradient(top, #121a1e 0%, #000000 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#121a1e), color-stop(100%,#000000)) !important;
+	background: -webkit-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+	background: -o-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+	background: -ms-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+	background: linear-gradient(to bottom, #121a1e 0%,#000000 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121a1e', endColorstr='#000000',GradientType=0 ) !important;
+	}
+
+.chat-tabs {
+	background-color: #000 !important;
+	}
+
+.chat-tabs ul {
+	background:#1B1B1B !important;
+	border: none !important;
+	}
+
+.chat-tabs li {
+	border: 1px solid transparent !important;
+	background: #202020 !important;
+	}
+
+.chat-tabs li.active {
+	border: 1px solid #202020 !important;
+	}
+
+.chat-tabs li.active {
+	background: #121a1e !important;
+	background: -moz-linear-gradient(top, #121a1e 0%, #000000 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#121a1e), color-stop(100%,#000000)) !important;
+	background: -webkit-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+	background: -o-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+	background: -ms-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+	background: linear-gradient(to bottom, #121a1e 0%,#000000 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121a1e', endColorstr='#000000',GradientType=0 ) !important;
+	}
+  
+#msg {
+	background-color: rgb(17,17,17) !important;
+	box-shadow: inset 0px -1px 6px 2px #000000 !important;
+	color: aliceblue !important;
+	}
+
+.users-online {
+	background-color: #0A1118 !important;
+	border-bottom: 1px solid rgb(0, 253, 243) !important;
+	}
+
+.chat .allMsg {
+	border-bottom: 2px solid #111111 !important;
+	color: #99B1BD !important;
+	}
+
+.msgWindow {
+	background:rgba(17,17,17,1) !important;
+	border-right: 2px solid #111111 !important;
+	border-left: 2px solid #111111 !important;
+	}
+
+.chat-tabs .ui-tabs-nav {
+  border: 0 !important;
+  background: #161616 !important;
+  border-bottom: 1px solid #111111 !important;
+  border-radius: 0 !important;
+  }
+
+.chat-tabs .ui-tabs-nav li.ui-tabs-active {
+  border: 1px solid #2C2C2C !important;
+  border-bottom: 0px !important;
+  background: #383838 !important;
+  }
+
+.chat-tabs .ui-tabs-nav li {
+  border-radius: 0 !important;
+  border: 1px solid transparent !important;
+  border-bottom: 0px !important;
+  background: #141414 !important;
+  }
+
+.ui-state-hover,.chat-tabs .ui-tabs-nav li.ui-state-hover {
+  background:#555555
+  }
+
+.ui-widget-content {
+  border: 1px solid #303030 !important;
+  }
+
+textarea{
+  border: 1px solid rgba(204, 204, 204, 0) !important;
+  }
+
+.sender-btn {
+  position: absolute !important;
+  right: 10px !important;
+  margin-top: 6px !important;
+  width: 16px !important;
+  height: 16px !important;
+  background:none !important;
+  }
+
+.chat-head {
+  background: #121a1e !important;
+  background: -moz-linear-gradient(top, #121a1e 0%, #000000 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#121a1e), color-stop(100%,#000000)) !important;
+  background: -webkit-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+  background: -o-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+  background: -ms-linear-gradient(top, #121a1e 0%,#000000 100%) !important;
+  background: linear-gradient(to bottom, #121a1e 0%,#000000 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121a1e', endColorstr='#000000',GradientType=0 ) !important;
+  }
+
+.head-icon {
+  display:none !important;
+  }
+
+.chat-head .close:before {
+  content: "×" !important;
+  font-size: 18px !important;
+  font-weight: 900 !important;
+  }
+
+.head-text {
+  color:#436fa3 !important;
+  }
+
+.head-text:before{
+  color:#436fa3 !important;
+  content:"Trollbox aka " !important;
+  }
+
+.chat-head .close {
+  background: none !important;
+  right: -20px !important;
+  top: 5px !important;
+  color: #555555 !important;
+  }
+
+.chat .time {
+  font-size: 9px !important;
+  margin-top: 3px !important;
+  opacity: 0.5 !important;
+  margin-right: 5px !important;
+  }
+
+#content {
+  padding: 5px 5px 15px !important;
+  }
+
+input[type="text"] {
+  box-shadow: inset 0px -1px 6px 2px rgba(0, 0, 0, 0.3) !important;
+  background: #162129 !important;
+  border: 1px solid black !important;
+  }
+
+.input-append .add-on,
+.input-prepend .add-on {
+  display: inline-block !important;
+  width: auto !important;
+  height: 20px !important;
+  min-width: 16px !important;
+  padding: 4px 5px !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  line-height: 20px !important;
+  text-align: center !important;
+  text-shadow: 0 1px 0 #000000 !important;
+  border: 1px solid #000 !important;
+  }
+
+.gd {
+  background-color: #223746 !important;
+  }
+
+#history > tbody > tr > td:nth-child(3) {
+  color: #0B7DA2 !important;
+  font-size: 105% !important;
+  font-weight: bold !important;
+  }
+
+.buy-sell .fee {
+  color: #3F6691 !important;
+  }
+
+.gd.l, .gd:active, .gd.active, .gd:hover {
+  border-color: #000 !important;
+  }
+
+.gd {
+  border-color: #222 !important;
+  }
+
+#inner .footer {
+  background: #000000 !important;
+  border-top: 1px dashed #222 !important;
+  }
+
+#orders tr > td:nth-child(4){
+	color: rgb(147, 107, 218) !important;
+	}
+
+#orders tr > td:nth-child(1) {
+	color: rgb(107, 196, 218) !important;
+	}
+
+#orders {
+	border-bottom: 1px dotted #222 !important;
+	}
