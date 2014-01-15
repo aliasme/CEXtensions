@@ -17,7 +17,7 @@
  *
  *	Apply with the Stylish! Extension for much awesomeness when visiting CEX.io
  *
- *	 For Chrome: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe
+ *	For Chrome:  https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe
  *	For Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/
  *
  *	Be sure to apply this style only to the domain: cex.io (See Stylish help for your browser)
@@ -34,7 +34,13 @@ th,
 td,
 label,
 div > div {
-  font-size: 94% !important;
+  font-size: 94%;
+  }
+
+.home > .notification.container {
+	position: relative;
+	top: 35px;
+	z-index: 1555;
   }
 
 .active-orders th,
@@ -138,7 +144,7 @@ br:last-child {
   }
 
 #content > .row-fluid > div > {
-  clear: both !important;
+  clear: both;
   }
 
 #pairs {
