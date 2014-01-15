@@ -1,91 +1,91 @@
 /**                                                        $$$$$$\  $$$$$$$$\ $$\   $$\
- *	                                                      $$  __$$\ $$  _____|$$ |  $$ |
- *	 $$$$$$\   $$$$$$\  $$\  $$\  $$\  $$$$$$\   $$$$$$\  $$ /  \__|$$ |      \$$\ $$  |
- *	$$  __$$\ $$  __$$\ $$ | $$ | $$ |$$  __$$\ $$  __$$\ $$ |      $$$$$\     \$$$$  /
- *	$$ /  $$ |$$ /  $$ |$$ | $$ | $$ |$$$$$$$$ |$$ |  \__|$$ |      $$  __|    $$  $$<
- *	$$ |  $$ |$$ |  $$ |$$ | $$ | $$ |$$   ____|$$ |      $$ |  $$\ $$ |      $$  /\$$\
- *	$$$$$$$  |\$$$$$$  |\$$$$$\$$$$  |\$$$$$$$\ $$ |      \$$$$$$  |$$$$$$$$\ $$ /  $$ |
- *	$$  ____/  \______/  \_____\____/  \_______|\__|       \______/ \________|\__|  \__|
- *	$$ |
- *	$$ |   Full-screen UI for CEX.io 				      				Homepage: http://goo.gl/fYH52O
- *	\__|   v1.2 by bitstoned															 Preview: http://goo.gl/6rW7cv
+ *                                                        $$  __$$\ $$  _____|$$ |  $$ |
+ *   $$$$$$\   $$$$$$\  $$\  $$\  $$\  $$$$$$\   $$$$$$\  $$ /  \__|$$ |      \$$\ $$  |
+ *  $$  __$$\ $$  __$$\ $$ | $$ | $$ |$$  __$$\ $$  __$$\ $$ |      $$$$$\     \$$$$  /
+ *  $$ /  $$ |$$ /  $$ |$$ | $$ | $$ |$$$$$$$$ |$$ |  \__|$$ |      $$  __|    $$  $$<
+ *  $$ |  $$ |$$ |  $$ |$$ | $$ | $$ |$$   ____|$$ |      $$ |  $$\ $$ |      $$  /\$$\
+ *  $$$$$$$  |\$$$$$$  |\$$$$$\$$$$  |\$$$$$$$\ $$ |      \$$$$$$  |$$$$$$$$\ $$ /  $$ |
+ *  $$  ____/  \______/  \_____\____/  \_______|\__|       \______/ \________|\__|  \__|
+ *  $$ |
+ *  $$ |   Full-screen UI for CEX.io                       Homepage: http://goo.gl/fYH52O
+ *  \__|   v1.2b by bitstoned                               Preview: http://goo.gl/6rW7cv
  *
- *	BTC: 1Hs73amwuyNAQeYsQQ8yYWe2ymgeTmPWc3 | DVC: 1G4HJRScYtmLPC3yw8S17WNJdoTxyKyRCw
+ *  BTC: 1Hs73amwuyNAQeYsQQ8yYWe2ymgeTmPWc3 | DVC: 1G4HJRScYtmLPC3yw8S17WNJdoTxyKyRCw
  *
- *	Usage
- *	=====
+ *  Usage
+ *  =====
  *
- *	Apply with the Stylish! Extension for much awesomeness when visiting CEX.io
+ *  Apply with the Stylish! Extension for much awesomeness when visiting CEX.io
  *
- *	For Chrome:  https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe
- *	For Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/
+ *  For Chrome:  https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe
+ *  For Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/
  *
- *	Be sure to apply this style only to the domain: cex.io (See Stylish help for your browser)
+ *  Be sure to apply this style only to the domain: cex.io (See Stylish help for your browser)
  *
  */
 
 div,
 tr {
-  font-size: 110%;
-  }
+	font-size: 110%;
+	}
 
 a,
 th,
 td,
 label,
 div > div {
-  font-size: 94%;
-  }
+	font-size: 94%;
+	}
 
 .home > .notification.container {
 	position: relative;
 	top: 35px;
 	z-index: 1555;
-  }
+	}
 
 .active-orders th,
 .active-orders td {
-  font-size: 80% !important;
-  }
+	font-size: 80% !important;
+	}
 
 br:last-child {
-  display: none !important;
-  }
+	display: none !important;
+	}
 
 .navbar-inner {
-  min-height: 24px !important;
-  }
+	min-height: 24px !important;
+	}
 
 .navbar .divider-vertical {
-  height: 35px !important;
-  }
+	height: 35px !important;
+	}
 
 .navbar .nav > li > a {
-  font-size: 100% !important;
-  position: relative !important;
-  padding-top: 7px !important;
-  padding-bottom: 7px !important;
-  z-index: 1560 !important;
-  }
+	font-size: 100% !important;
+	position: relative !important;
+	padding-top: 7px !important;
+	padding-bottom: 7px !important;
+	z-index: 1560 !important;
+	}
 
 .navbar-avatar > .dropdown > .dropdown-toggle {
-  padding-top: 4px !important;
-  padding-bottom: 4px !important;
-  }
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
+	}
 
 .navbar-avatar .thumb-small {
-  width: 22px !important;
-  }
+	width: 22px !important;
+	}
 
 .home > .container:nth-child(2) {
-  position: fixed !important;
-  min-width: 650px !important;
-  width: 650px !important;
-  max-width: 650px !important;
-  top: -89px !important;
-  left: 830px !important;
-  z-index: 1555 !important;
-  }
+	position: fixed !important;
+	min-width: 650px !important;
+	width: 650px !important;
+	max-width: 650px !important;
+	top: -89px !important;
+	left: 830px !important;
+	z-index: 1555 !important;
+	}
 
 br:last-child,
 .page-header > div,
@@ -97,293 +97,293 @@ br:last-child,
 .slogan,
 #contract,
 .buy-sell > a {
-  display: none !important;
-  }
+	display: none !important;
+	}
 
 .nav,
 .block,
 form,
 .control-group {
-  margin-bottom: 0 !important;
-  }
+	margin-bottom: 0 !important;
+	}
 
 .balance {
-  margin-top: 0 !important;
-  }
+	margin-top: 0 !important;
+	}
 
 .balance b {
-  font-size: 120% !important;
-  }
+	font-size: 120% !important;
+	}
 
 .balance li {
-  width: 160px !important;
-  }
+	width: 160px !important;
+	}
 
 .nav {
-  margin-bottom: 0 !important;
-  }
+	margin-bottom: 0 !important;
+	}
 
 .nav-a {
-  padding-left: 0 !important;
-  }
+	padding-left: 0 !important;
+	}
 
 .btn-fund {
-  margin: 0 !important;
-  width: 120px !important;
-  height: 0px !important;
-  padding: 0 0 26px 5px !important;
-  font-size: 12px !important;
-  position: fixed !important;
-  top: 4px !important;
-  right: 6px !important;
-  z-index: 1200 !important;
-  }
+	margin: 0 !important;
+	width: 120px !important;
+	height: 0px !important;
+	padding: 0 0 26px 5px !important;
+	font-size: 12px !important;
+	position: fixed !important;
+	top: 4px !important;
+	right: 6px !important;
+	z-index: 1200 !important;
+	}
 
 .container {
-  min-width: 85% !important;
-  max-width: 100% !important;
-  margin-left: 0 !important;
-  }
+	min-width: 85% !important;
+	max-width: 100% !important;
+	margin-left: 0 !important;
+	}
 
 #inner .home {
-  padding-bottom: 0 !important;
-  }
+	padding-bottom: 0 !important;
+	}
 
 #content {
-  width: 100% !important;
-  padding: 35px 5px 15px 5px !important;
-  }
+	width: 100% !important;
+	padding: 35px 5px 15px 5px !important;
+	}
 
 #content > .row-fluid > div > {
-  clear: both;
-  }
+	clear: both;
+	}
 
 #pairs {
-  height: 70px !important;
-  margin-bottom: 0 !important;
-  }
+	height: 70px !important;
+	margin-bottom: 0 !important;
+	}
 
 .graph-tab {
-  padding: 8px !important;
-  }
+	padding: 8px !important;
+	}
 
 .graph-tab.active {
-  border-radius: 8px 8px 0 0 !important;
-  }
+	border-radius: 8px 8px 0 0 !important;
+	}
 
 #google_candelistic_chart {
-  height: 255px !important;
-  }
+	height: 255px !important;
+	}
 
 .google_charts_zoom li {
-  cursor: pointer !important;
-  float: left !important;
-  margin: 5px !important;
-  padding: 0 10px !important;
-  }
+	cursor: pointer !important;
+	float: left !important;
+	margin: 5px !important;
+	padding: 0 10px !important;
+	}
 
 #google_control {
-  top: 25px !important;
-  }
+	top: 25px !important;
+	}
 
 .span12 > .chart {
-  display: inline-block !important;
-  margin-top: -3px !important;
-  width: 52% !important;
-  float: left !important;
-  clear: left !important;
-  }
+	display: inline-block !important;
+	margin-top: -3px !important;
+	width: 52% !important;
+	float: left !important;
+	clear: left !important;
+	}
 
 .span12 > .market {
-  display: inline-block !important;
-  margin-top: 0 !important;
-  padding: 0 !important;
-  width: 45% !important;
-  height: 414px !important;
-  float: right !important;
-  clear: right !important;
-  }
+	display: inline-block !important;
+	margin-top: 0 !important;
+	padding: 0 !important;
+	width: 45% !important;
+	height: 414px !important;
+	float: right !important;
+	clear: right !important;
+	}
 
 .market-data {
-  margin-bottom: 0 !important;
-  padding: 10px 0 10px 10px !important;
-  border-radius: 10px 10px 0 0 !important;
-  }
+	margin-bottom: 0 !important;
+	padding: 10px 0 10px 10px !important;
+	border-radius: 10px 10px 0 0 !important;
+	}
 
 .market-data .title {
-  font-size: 24px !important;
-  }
+	font-size: 24px !important;
+	}
 
 .market-data .pair-name {
-  width: 12.5% !important;
-  }
+	width: 12.5% !important;
+	}
 
 .market-data .span10 {
-  margin-left: 0 !important;
-  }
+	margin-left: 0 !important;
+	}
 
 .market-data .day-range {
-  width: 29% !important;
-  }
+	width: 29% !important;
+	}
 
 h3 {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  }
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	}
 
 .title {
-  font-size: 16px !important;
-  }
+	font-size: 16px !important;
+	}
 
 .buy-sell {
-  padding: 10px 10px 0 10px !important;
-  margin-bottom: 0 !important;
-  }
+	padding: 10px 10px 0 10px !important;
+	margin-bottom: 0 !important;
+	}
 
 .buy-sell > h3,
 .buy-sell > .row-fluid > .span6 > br {
-  display: none !important;
-  }
+	display: none !important;
+	}
 
 .buy-sell .fee {
-  position: absolute !important;
-  font-size: 9px !important;
-  margin-top: 3px !important;
-  }
+	position: absolute !important;
+	font-size: 9px !important;
+	margin-top: 3px !important;
+	}
 
 .buy-sell-orders tr {
-  transition: all 0.25s ease-in-out !important;
-  -webkit-transition: all 0.25s ease-in-out !important;
-  -moz-transition: all 0.25s ease-in-out !important;
-  }
+	transition: all 0.25s ease-in-out !important;
+	-webkit-transition: all 0.25s ease-in-out !important;
+	-moz-transition: all 0.25s ease-in-out !important;
+	}
 
 #trade,
 #instant {
-  display: inline-block !important;
-  }
+	display: inline-block !important;
+	}
 
 #trade {
-  float: right !important;
-  width: 49.5% !important;
-  }
+	float: right !important;
+	width: 49.5% !important;
+	}
 
 #instant {
-  float: left !important;
-  width: 50% !important;
-  }
+	float: left !important;
+	width: 50% !important;
+	}
 
 #instant .total {
-  display: none !important;
-  }
+	display: none !important;
+	}
 
 .block {
-  margin-bottom: 0 !important;
-  }
+	margin-bottom: 0 !important;
+	}
 
 .btn-small {
-  padding: 3px !important;
-  font-size: 10.5px !important;
-  }
+	padding: 3px !important;
+	font-size: 10.5px !important;
+	}
 
 #order-buy-error,
 #order-buy-success,
 #order-error,
 #order-success {
-  width: 300px !important;
-  height: 16px !important;
-  position: absolute !important;
-  bottom: 10px !important;
-  }
+	width: 300px !important;
+	height: 16px !important;
+	position: absolute !important;
+	bottom: 10px !important;
+	}
 
 .alert .close {
-  width: 30px !important;
-  height: 27px !important;
-  }
+	width: 30px !important;
+	height: 27px !important;
+	}
 
 form,
 .control-group {
-  margin-bottom: 0 !important;
-  }
+	margin-bottom: 0 !important;
+	}
 
 .row-fluid > .span6 > .panel {
-  border-radius: 15px 0 0 15px !important;
-  }
+	border-radius: 15px 0 0 15px !important;
+	}
 
 .row-fluid > .span6 + .span6 > .panel {
-  border-radius: 0 15px 15px 0 !important;
-  }
+	border-radius: 0 15px 15px 0 !important;
+	}
 
 .panel,
 .panel-heading {
-  width: 94% !important;
-  }
+	width: 94% !important;
+	}
 
 .buy-sell-orders,
 .active-orders {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  }
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	}
 
 .buy-sell-orders {
-  padding-right: 0 !important;
-  width: 51% !important;
-  float: left !important;
-  }
+	padding-right: 0 !important;
+	width: 51% !important;
+	float: left !important;
+	}
 
 .buy-sell-orders > .row-fluid > .span6 > div {
-  width: 100% !important;
-  }
+	width: 100% !important;
+	}
 
 .buy-sell-orders > .row-fluid > .span6 > div > div {
-  height: 590px !important;
-  }
+	height: 590px !important;
+	}
 
 .active-orders {
-  width: 46% !important;
-  float: right !important;
-  }
+	width: 46% !important;
+	float: right !important;
+	}
 
 .active-orders > .row-fluid > div:last-of-type {
-  height: 190px !important;
-  }
+	height: 190px !important;
+	}
 
 .active-orders + .active-orders > .row-fluid > div:last-of-type {
-  height: 360px !important;
-  }
+	height: 360px !important;
+	}
 
 .table th,
 .table td {
-  padding: 5px !important;
-  }
+	padding: 5px !important;
+	}
 
 #contract {
-  display: none !important;
-  }
+	display: none !important;
+	}
 
 .buy-sell > a {
-  display: none !important;
-  }
+	display: none !important;
+	}
 
 .input-append {
-  zoom: 0.8 !important;
-  }
+	zoom: 0.8 !important;
+	}
 
 .footer div {
-  font-size: 100% !important;
-  }
+	font-size: 100% !important;
+	}
 
 .footer > .container-fluid {
-  display: none !important;
-  }
+	display: none !important;
+	}
 
 .modal-backdrop.fade.in {
-  opacity: 0.15 !important;
-  }
+	opacity: 0.15 !important;
+	}
 
 div.jGrowl.top-right {
-  top: 34px !important;
-  }
+	top: 34px !important;
+	}
 
 #msgWindow {
-  zoom: 85% !important;
-  }
+	zoom: 85% !important;
+	}
