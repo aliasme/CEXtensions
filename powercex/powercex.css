@@ -8,7 +8,7 @@
  *	$$  ____/  \______/  \_____\____/  \_______|\__|       \______/ \________|\__|  \__|
  *	$$ |
  *	$$ |   Full-screen UI for CEX.io 				      				Homepage: http://goo.gl/fYH52O
- *	\__|   v1.2a by bitstoned															 Preview: http://goo.gl/6rW7cv
+ *	\__|   v1.2 by bitstoned															 Preview: http://goo.gl/6rW7cv
  *
  *	BTC: 1Hs73amwuyNAQeYsQQ8yYWe2ymgeTmPWc3 | DVC: 1G4HJRScYtmLPC3yw8S17WNJdoTxyKyRCw
  *
@@ -87,13 +87,24 @@ br:last-child {
   z-index: 1555 !important;
   }
 
-.page-header > div {
+br:last-child,
+.page-header > div,
+.buy-sell > h3,
+.buy-sell > .row-fluid > .span6 > br,
+#instant .total,
+.footer > .container-fluid,
+.cex-logo,
+.slogan,
+#contract,
+.buy-sell > a {
   display: none !important;
   }
 
-.cex-logo,
-.slogan {
-  display: none !important;
+.nav,
+.block,
+form,
+.control-group {
+  margin-bottom: 0 !important;
   }
 
 .balance {
@@ -164,6 +175,13 @@ br:last-child {
   height: 255px !important;
   }
 
+.google_charts_zoom li {
+  cursor: pointer !important;
+  float: left !important;
+  margin: 5px !important;
+  padding: 0 10px !important;
+  }
+
 #google_control {
   top: 25px !important;
   }
@@ -181,6 +199,7 @@ br:last-child {
   margin-top: 0 !important;
   padding: 0 !important;
   width: 45% !important;
+  height: 414px !important;
   float: right !important;
   clear: right !important;
   }
@@ -224,6 +243,18 @@ h3 {
 .buy-sell > h3,
 .buy-sell > .row-fluid > .span6 > br {
   display: none !important;
+  }
+
+.buy-sell .fee {
+  position: absolute !important;
+  font-size: 9px !important;
+  margin-top: 3px !important;
+  }
+
+.buy-sell-orders tr {
+  transition: all 0.25s ease-in-out !important;
+  -webkit-transition: all 0.25s ease-in-out !important;
+  -moz-transition: all 0.25s ease-in-out !important;
   }
 
 #trade,
