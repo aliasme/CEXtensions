@@ -12,10 +12,15 @@
  *
  *  BTC: 1Hs73amwuyNAQeYsQQ8yYWe2ymgeTmPWc3 | DVC: 1G4HJRScYtmLPC3yw8S17WNJdoTxyKyRCw
  *
- *  Usage
- *  =====
+ *  Contributors
+ *  ============
  *
- *  Apply with the Stylish! Extension for much awesomeness when visiting CEX.io
+ *  serial77 // BTC: 1DyRW2oLRecj8YA1D1Htbk6iiepuhLfJns
+ *
+ *  Usage Instructions
+ *  ==================
+ *
+ *  Apply with the Stylish extension for much awesomeness when visiting CEX.io
  *
  *  For Chrome:  https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe
  *  For Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/
@@ -249,12 +254,6 @@ h3 {
 	position: absolute !important;
 	font-size: 9px !important;
 	margin-top: 3px !important;
-	}
-
-.buy-sell-orders tr {
-	transition: all 0.25s ease-in-out !important;
-	-webkit-transition: all 0.25s ease-in-out !important;
-	-moz-transition: all 0.25s ease-in-out !important;
 	}
 
 #trade,
