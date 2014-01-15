@@ -7,7 +7,7 @@ What's Here?
 ------------
 
 * **powerCEX** : Complementary stylesheet offering a fullscreen-optimized trading experience
-* **Late Night** : For us night-owls, a stylesheet to reduce eye strain and make your wife think you're even nerdier (by [serial77](https://github.com/user/serial77))
+* **Late Night** : For us night-owls, a stylesheet to reduce eye strain and make your wife think you're even nerdier (by [serial77](https://github.com/serial77))
 * **Language mods** : Simple userscripts to override text you don't like
 
 Issues
